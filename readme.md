@@ -23,7 +23,7 @@ gulp.task('js', function () {
 });
 ```
 
-## options
+## Options
 
 same as [defs](https://github.com/olov/defs#configuration)
 
