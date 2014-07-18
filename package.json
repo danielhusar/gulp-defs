@@ -1,0 +1,35 @@
+{
+  "name": "gulp-defs",
+  "version": "0.0.1",
+  "description": "Gulp plugin for static scope analysis and transpilation of ES6 block scoped const and let variables to ES3 vars",
+  "license": "MIT",
+  "repository": "danielhusar/gulp-defs",
+  "author": {
+    "name": "Daniel Husar",
+    "email": "dano.husar@gmail.com",
+    "url": "https://github.com/danielhusar"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha -R spec"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "gulpplugin",
+    "defs",
+    "ES6"
+  ],
+  "dependencies": {
+    "gulp-util": "~2.2.20",
+    "through2": "~0.5.1",
+    "defs": "^1.0.0"
+  },
+  "devDependencies": {
+    "mocha": "^1.18.2"
+  },
+  "readmeFilename": "readme.md"
+}
