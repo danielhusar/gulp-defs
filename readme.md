@@ -21,7 +21,6 @@ gulp.task('js', function () {
   .pipe(defs(options))
   .pipe(gulp.dest('./public/'));
 });
-
 ```
 
 ## options
